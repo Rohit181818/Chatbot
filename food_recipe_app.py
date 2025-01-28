@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 import re
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="chatgpt API") # Use your own Api key
 
 st.title("Food Recipe and Ingredient Cost Calculator")
 
